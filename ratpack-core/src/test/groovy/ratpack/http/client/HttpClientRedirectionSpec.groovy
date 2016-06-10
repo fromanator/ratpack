@@ -17,10 +17,6 @@
 package ratpack.http.client
 
 import ratpack.func.Action
-import ratpack.http.client.HttpClient
-import ratpack.http.client.HttpClientSpec
-import ratpack.http.client.ReceivedResponse
-import ratpack.http.client.RequestSpec
 import ratpack.http.client.internal.PooledHttpClientFactory
 import ratpack.http.client.internal.PooledHttpConfig
 import ratpack.http.internal.HttpHeaderConstants

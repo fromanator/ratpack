@@ -115,6 +115,7 @@ public interface ServerConfig extends ConfigData {
   InetAddress getAddress();
 
   /**
+   *
    * The config objects that were declared as required when this server config was built.
    * <p>
    * Required config is declared via the {@link ServerConfigBuilder#require(String, Class)} when building.

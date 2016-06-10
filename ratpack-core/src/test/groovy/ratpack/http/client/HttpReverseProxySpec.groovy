@@ -16,8 +16,6 @@
 
 package ratpack.http.client
 
-import ratpack.http.client.HttpClient
-import ratpack.http.client.HttpClientSpec
 import ratpack.http.client.internal.PooledHttpClientFactory
 import ratpack.http.client.internal.PooledHttpConfig
 import spock.lang.Unroll

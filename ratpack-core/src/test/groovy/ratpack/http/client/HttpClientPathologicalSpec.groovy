@@ -19,7 +19,6 @@ package ratpack.http.client
 import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.client.WireMock
 import com.github.tomakehurst.wiremock.http.Fault
-import ratpack.http.client.HttpClient
 import ratpack.http.client.internal.PooledHttpClientFactory
 import ratpack.http.client.internal.PooledHttpConfig
 import ratpack.test.internal.RatpackGroovyDslSpec

@@ -23,13 +23,7 @@ import io.netty.handler.codec.http.HttpHeaderValues
 import io.netty.handler.codec.http.HttpHeaders
 import io.netty.handler.timeout.ReadTimeoutException
 import io.netty.util.CharsetUtil
-import org.spockframework.compiler.model.WhereBlock
 import ratpack.exec.Blocking
-import ratpack.http.client.HttpClient
-import ratpack.http.client.HttpClientSpec
-import ratpack.http.client.ReceivedResponse
-import ratpack.http.client.RequestSpec
-import ratpack.http.client.StreamedResponse
 import ratpack.http.client.internal.PooledHttpClientFactory
 import ratpack.http.client.internal.PooledHttpConfig
 import ratpack.stream.Streams
